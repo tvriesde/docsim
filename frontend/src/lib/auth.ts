@@ -7,6 +7,7 @@ import {
 import { config } from './config'
 
 let msal: PublicClientApplication | undefined
+let tokenRequest: Promise<string | undefined> | undefined
 
 export async function initAuth(): Promise<PublicClientApplication | undefined> {
   const cfg = config()
@@ -45,17 +46,30 @@ export async function logout(): Promise<void> {
 
 export async function getToken(): Promise<string | undefined> {
   if (!msal) return undefined
-  const account = msal.getActiveAccount()
+  tokenRequest ??= acquireToken(msal).finally(() => {
+    tokenRequest = undefined
+  })
+  return tokenRequest
+}
+
+function isSilentAuthTimeout(err: unknown): boolean {
+  if (!err || typeof err !== 'object' || !('errorCode' in err)) return false
+  const code = String(err.errorCode)
+  return code === 'timed_out' || code === 'block_iframe_reload'
+}
+
+async function acquireToken(client: PublicClientApplication): Promise<string | undefined> {
+  const account = client.getActiveAccount()
   if (!account) {
-    await login()
+    await client.loginRedirect({ scopes: [config().apiScope] })
     return undefined
   }
   const request = { scopes: [config().apiScope], account }
   try {
-    return (await msal.acquireTokenSilent(request)).accessToken
+    return (await client.acquireTokenSilent(request)).accessToken
   } catch (err) {
-    if (err instanceof InteractionRequiredAuthError) {
-      await msal.acquireTokenRedirect(request)
+    if (err instanceof InteractionRequiredAuthError || isSilentAuthTimeout(err)) {
+      await client.acquireTokenRedirect(request)
       return undefined
     }
     throw err
