@@ -1,0 +1,19 @@
+Information Security Policy 3
+
+Security incidents must be reported within one hour of detection to the incident response team. Security incidents must be reported within one hour of detection to the incident response team. Third-party vendors must sign a data processing agreement before receiving personal data. Third-party vendors must sign a data processing agreement before receiving personal data.
+
+Privileged accounts are monitored and sessions are recorded for audit purposes. Security incidents must be reported within one hour of detection to the incident response team. All employees must use multi-factor authentication when accessing corporate systems remotely. Security incidents must be reported within one hour of detection to the incident response team.
+
+Third-party vendors must sign a data processing agreement before receiving personal data. Sensitive data must be classified and stored only in approved, encrypted repositories. Sensitive data must be classified and stored only in approved, encrypted repositories. Privileged accounts are monitored and sessions are recorded for audit purposes.
+
+Sensitive data must be classified and stored only in approved, encrypted repositories. Removable media is blocked by default and requires an exception approved by the security officer. Removable media is blocked by default and requires an exception approved by the security officer. Passwords must be at least fourteen characters long and must never be shared or reused.
+
+Report suspected phishing emails to the security operations center using the report button. Laptops must have full disk encryption enabled and receive security patches within fourteen days. Access rights are granted on a least privilege basis and reviewed by managers every quarter. Access rights are granted on a least privilege basis and reviewed by managers every quarter.
+
+Security incidents must be reported within one hour of detection to the incident response team. Passwords must be at least fourteen characters long and must never be shared or reused. Third-party vendors must sign a data processing agreement before receiving personal data. Security incidents must be reported within one hour of detection to the incident response team.
+
+Sensitive data must be classified and stored only in approved, encrypted repositories. Privileged accounts are monitored and sessions are recorded for audit purposes. Firewall rules are reviewed twice a year and unused rules are removed. Firewall rules are reviewed twice a year and unused rules are removed.
+
+Laptops must have full disk encryption enabled and receive security patches within fourteen days. Third-party vendors must sign a data processing agreement before receiving personal data. Laptops must have full disk encryption enabled and receive security patches within fourteen days. All employees must use multi-factor authentication when accessing corporate systems remotely.
+
+Removable media is blocked by default and requires an exception approved by the security officer. Backups are tested monthly to verify that critical systems can be restored. Laptops must have full disk encryption enabled and receive security patches within fourteen days. Passwords must be at least fourteen characters long and must never be shared or reused.

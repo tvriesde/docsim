@@ -1,0 +1,54 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --color-bg: #0b0d12;
+  --color-panel: #12151c;
+  --color-panel-2: #171b24;
+  --color-border: #232836;
+  --color-muted: #8a93a6;
+  --color-fg: #e7eaf0;
+  --color-accent: #7c5cff;
+  --color-accent-2: #22d3ee;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-accent) 40%, transparent);
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.bg-grid {
+  background-image: radial-gradient(circle at 1px 1px, rgb(255 255 255 / 0.05) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+.react-flow__attribution {
+  display: none;
+}
+.react-flow__controls button {
+  background: var(--color-panel-2);
+  border-color: var(--color-border);
+  fill: var(--color-fg);
+  color: var(--color-fg);
+}
+.react-flow__controls button:hover {
+  background: var(--color-border);
+}

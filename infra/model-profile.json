@@ -1,0 +1,4 @@
+{
+  "chat":      { "deployment": "gpt-6-luna", "model": "gpt-6-luna", "version": "2026-09-22", "sku": "DataZoneStandard", "capacity": 100, "reasoningEffort": "none" },
+  "embedding": { "deployment": "text-embedding-3-large", "model": "text-embedding-3-large", "version": "1", "sku": "DataZoneStandard", "capacity": 150, "dimensions": 3072 }
+}

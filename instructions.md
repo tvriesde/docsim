@@ -1,0 +1,1 @@
+DONT test locally, just deploy to azure so that i can test myself, tell me how i should test. i trust your quality.

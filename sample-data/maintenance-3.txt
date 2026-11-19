@@ -1,0 +1,19 @@
+Lithography Maintenance Procedure 3
+
+Before starting maintenance, lock out the wafer stage and verify that the laser source is powered down. Before starting maintenance, lock out the wafer stage and verify that the laser source is powered down. Escalate recurring stage errors to the second line support engineer with the event logs. Thermal stabilization of the machine requires four hours before production qualification.
+
+Log all replaced parts in the service report together with the module serial numbers. Check the vacuum levels of the wafer table and compare them with the service specification. The illuminator optics must be purged with clean dry air for thirty minutes after opening. Calibrate the alignment sensor using the reference wafer and record the overlay offsets.
+
+Log all replaced parts in the service report together with the module serial numbers. Thermal stabilization of the machine requires four hours before production qualification. Inspect the immersion hood for contamination and clean it with the approved solvent wipes. Replace the reticle handler gripper pads after every two thousand exchange cycles.
+
+Verify the interferometer readings and recalibrate the stage position if drift exceeds tolerance. Log all replaced parts in the service report together with the module serial numbers. Calibrate the alignment sensor using the reference wafer and record the overlay offsets. Check the vacuum levels of the wafer table and compare them with the service specification.
+
+Inspect the immersion hood for contamination and clean it with the approved solvent wipes. Log all replaced parts in the service report together with the module serial numbers. Inspect the immersion hood for contamination and clean it with the approved solvent wipes. Escalate recurring stage errors to the second line support engineer with the event logs.
+
+Calibrate the alignment sensor using the reference wafer and record the overlay offsets. Wear an electrostatic discharge wrist strap when handling the sensor boards. Calibrate the alignment sensor using the reference wafer and record the overlay offsets. Replace the reticle handler gripper pads after every two thousand exchange cycles.
+
+Replace the reticle handler gripper pads after every two thousand exchange cycles. Inspect the immersion hood for contamination and clean it with the approved solvent wipes. Log all replaced parts in the service report together with the module serial numbers. Verify the interferometer readings and recalibrate the stage position if drift exceeds tolerance.
+
+Before starting maintenance, lock out the wafer stage and verify that the laser source is powered down. Wear an electrostatic discharge wrist strap when handling the sensor boards. Log all replaced parts in the service report together with the module serial numbers. Run the focus and leveling diagnostics after any intervention on the projection lens.
+
+Thermal stabilization of the machine requires four hours before production qualification. Escalate recurring stage errors to the second line support engineer with the event logs. Run the focus and leveling diagnostics after any intervention on the projection lens. Escalate recurring stage errors to the second line support engineer with the event logs.
